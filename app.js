@@ -1,11 +1,17 @@
-const fs = require('fs');
 
-const files = fs.readdirSync('./');
+const Logger = require('./logger');
+const logger = new Logger();
 
-console.log(files);
+// Listen to an event
+logger.on('messageLogged', (arg) => {
+    console.log('Event raised',arg);
+});
 
-fs.readdir('$', function(err, files) {
-    if (err) console.log('Error', err);
-    else console.log('Result', files);
-}
-);
+logger.log('message');
+
+
+
+
+
+
+
