@@ -1,12 +1,23 @@
 {
-  "name": "npm-demo",
+  "name": "js-mastery",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelmorgan/node-js-mastery.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "keywords": [],
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/kelmorgan/node-js-mastery/issues"
+  },
+  "homepage": "https://github.com/kelmorgan/node-js-mastery#readme",
+  "description": "",
+  "dependencies": {
+    "underscore": "^1.13.7"
+  }
 }
