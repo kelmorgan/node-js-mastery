@@ -18,7 +18,10 @@
   "homepage": "https://github.com/kelmorgan/node-js-mastery#readme",
   "description": "",
   "dependencies": {
-    "mongoose": "^8.13.1",
+    "express": "^5.1.0",
     "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6"
   }
 }
